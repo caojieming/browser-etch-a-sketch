@@ -8,4 +8,13 @@ for(let i = 1; i <= (16*16); i++) {
     grid.appendChild(square);
 }
 
+// hover trail effect
+const squares = document.getElementsByClassName("square");
 
+function grayOver() {
+    this.style.backgroundColor = "gray";
+}
+
+for(let i = 0; i < squares.length; i++) {
+    squares[i].addEventListener("mouseover", grayOver);
+}
