@@ -1,13 +1,13 @@
+#changeBtn {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
 #grid {
     display: flex;
     flex-wrap: wrap;
-    width: 700px;
-    gap: 1px;
 }
 
-
 .square {
-    border: 1px solid black;
-    height: 40px;
-    width: 40px;
+    outline: 1px solid black;
 }
